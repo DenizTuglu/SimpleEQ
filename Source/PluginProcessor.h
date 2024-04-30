@@ -10,6 +10,11 @@
 
 #include <JuceHeader.h>
 
+enum Slope {
+    
+    Slope_12,
+}
+
 struct ChainSettings
 {
     float peakFreq { 0 }, peakGainInDecibels { 0 }, peakQuality {1.f};
