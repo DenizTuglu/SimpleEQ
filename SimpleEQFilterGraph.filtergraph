@@ -5,7 +5,7 @@
     <PLUGIN name="Audio Input" descriptiveName="" format="Internal" category="I/O devices"
             manufacturer="JUCE" version="1.0" file="" uniqueId="246006c0"
             isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="0"
-            numOutputs="2" isShell="0" hasARAExtension="0" uid="246006c0"/>
+            numOutputs="8" isShell="0" hasARAExtension="0" uid="246006c0"/>
     <STATE>0.</STATE>
     <LAYOUT>
       <INPUTS>
@@ -39,7 +39,7 @@
     <STATE>0.</STATE>
     <LAYOUT>
       <INPUTS>
-        <BUS index="0" layout="L R"/>
+        <BUS index="0" layout="L R C Lfe Lss Rss Lrs Rrs"/>
       </INPUTS>
       <OUTPUTS>
         <BUS index="0" layout="disabled"/>
@@ -62,13 +62,13 @@
     </LAYOUT>
   </FILTER>
   <FILTER uid="6" x="0.375" y="0.2766393442622951" useARA="0" uiLastX_Normal="1043"
-          uiLastY_Normal="104" uiopen_Normal="1">
+          uiLastY_Normal="105" uiopen_Normal="1">
     <PLUGIN name="AUAudioFilePlayer" format="AudioUnit" category="Generator"
             manufacturer="Apple" version="1.6.0" file="AudioUnit:Generators/augn,afpl,appl"
-            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="18f33af4151"
+            uniqueId="6163676e" isInstrument="0" fileTime="0" infoUpdateTime="18f5cad2c81"
             numInputs="0" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="6163676e"/>
-    <STATE>755.hAGaoMGcv.C1AHv.DTfAGfPBJrvGfDhHkvUag4VclE1XzUmbkIGUjEFcg8EDarVPUAkbkMWYzAUYxMWZyQWYtQ2TzEFcksTY4c0b0IFc4AWYWYWYxMWZu4FUzkGbk8EDOXVZrUVKxUlYkIWYtMVYyQkag0VYRDFbvwFPhx.FR2fCO.AVFkFak4TXsU1URU1Yo8lay8ED37RUyUlby8BYk4VZ54Bc0cFa08BQucmar8VXjM2KLklakIjbkE1ZkI2bPUmd5wVYTgVYsUlKsA2LgFwzRLAEUXwEZIUYmk1at4TXsUlVRU1Yo8laDEFcg4kTkcVZu4FQuU1bL81avokSkcGHRU1Yo8laOAAb...........Xy3eSA...................H....f...........n9KqbLrtiT1WuSXEO5j2oR.....E+ovR.....................................v+++8+...........fhAE.+++6+gfzM3PFZ7EDS8RUyUlby8BYk4VZ5QWcmwVcuPzaiUWak4Fcy8xP0IVXyUFHPI2apU1XzM2KzUVavwVXzU1KMkFdj81ct8RS0MWZiQVctcVYu4FRuImbuImK2ElcgtwzRLAEbzwEZ4TY2AhTkcVZu41SP.G...........0qjuT.....3+J4KE.....7R+8aA....L..........HL82uE.....BS+8aA....D....P..........................................D...............jqiiA......HHQXlAGaP.fDgU2YtI8Hj7PFVYTZrUFHwXkQowVYfHCVU4FcoQGakQF.H.PF.XB.q.PR.DE.YAfW..G.0Afd.rG.9Avf.vH.TBvy.DM.XCv3.3N.8G.BArW.7EPfAbc.YG.3Art.dIvWBPl.lIvZB.m.2Ife........BD..........l...................BbH</STATE>
+    <STATE>537.hAGaoMGcv.C1AHv.DTfAGfPBJr.FYnwFcvUag4VclE1XzUmbkIGUjEFcg8EDarVPUAkbkMWYzAUYxMWZyQWYtQ2TzEFcksTY4c0b0IFc4AWYWYWYxMWZu4FUzkGbk8EDOXVZrUVKxUlYkIWYtMVYyQkag0VYRDFbvwFPgxfzM3vCPfkQowVYNEVakckTkcVZu41beAwVuT0bkI2buPVYtkldzU2YrU2KD81X00VYtQ2buLTchE1bkABTx8lZkMFcy8Bck0FbrEFck8RSogGYucmaujlalUlbtU2bujjalUlbtU2bCElckImayYUMtbWX1EZDSKwDTTgEWnkTkcVZu4lSg0VYZIUYmk1atQTXzElWRU1Yo8laD8VYywzauAmVNU1cfHUYmk1at8DDvA..........P+g4TD.....dfXNEA.....uze+V.....C..........BS+8aA....fvze+V.....A....D..........................................A...............5AtR.......BRDlYvwFD.HQX0claQywCVYTZrUFHwfUUtQWZzwVYjA.B.jA.l.vJ.jD.QAPV.3E.vAPc.nG.6APe.HH.KBvj.DO.yCf9ATP.PDvGAnR.cFfmALZ.kFfpAzZ.zB.......HP..........3A..................DPu</STATE>
     <LAYOUT>
       <INPUTS/>
       <OUTPUTS>
@@ -76,11 +76,11 @@
       </OUTPUTS>
     </LAYOUT>
   </FILTER>
-  <FILTER uid="11" x="0.38625" y="0.5184426229508197" useARA="0" uiLastX_Normal="297"
-          uiLastY_Normal="411" uiopen_Normal="0">
+  <FILTER uid="11" x="0.38625" y="0.5184426229508197" useARA="0" uiLastX_Normal="316"
+          uiLastY_Normal="371" uiopen_Normal="1">
     <PLUGIN name="SimpleEQ" format="VST3" category="Fx" manufacturer="yourcompany"
             version="1.0.0" file="/Users/deniztuglu/Library/Audio/Plug-Ins/VST3/SimpleEQ.vst3"
-            uniqueId="f3a1dd18" isInstrument="0" fileTime="18f338263c9" infoUpdateTime="18f33af4151"
+            uniqueId="f3a1dd18" isInstrument="0" fileTime="18f338263c9" infoUpdateTime="18f5cad2c82"
             numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
             uid="acf59970"/>
     <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
